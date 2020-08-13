@@ -1,0 +1,21 @@
+﻿<Window x:Class="Chaifenxls.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Chaifenxls"
+        mc:Ignorable="d"
+        Title="拆分表格" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="but_open" Content="打开需要票折" HorizontalAlignment="Left" Height="38" Margin="152,77,0,0" VerticalAlignment="Top" Width="117" Click="But_open_Click"/>
+        <Label x:Name="lab_open" Content="打开文件地址" HorizontalAlignment="Left" Height="38" Margin="318,77,0,0" VerticalAlignment="Top" Width="298"/>
+        <Button x:Name="but_chai" Content="拆分" HorizontalAlignment="Left" Margin="152,318,0,0" VerticalAlignment="Top" Width="131" Height="37"/>
+        <Button x:Name="but_open_Copy" Content="打开当月让利" HorizontalAlignment="Left" Height="38" Margin="152,137,0,0" VerticalAlignment="Top" Width="117" Click="But_open_Click"/>
+        <Label x:Name="lab_open_Copy" Content="打开文件地址" HorizontalAlignment="Left" Height="38" Margin="318,137,0,0" VerticalAlignment="Top" Width="298"/>
+        <Button x:Name="but_open_Copy1" Content="打开其他票折" HorizontalAlignment="Left" Height="38" Margin="152,196,0,0" VerticalAlignment="Top" Width="117" Click="But_open_Click"/>
+        <Label x:Name="lab_open_Copy1" Content="打开文件地址" HorizontalAlignment="Left" Height="38" Margin="318,196,0,0" VerticalAlignment="Top" Width="298"/>
+        <Button x:Name="but_open_Copy2" Content="打开左右归票折" HorizontalAlignment="Left" Height="38" Margin="152,256,0,0" VerticalAlignment="Top" Width="117" Click="But_open_Click"/>
+        <Label x:Name="lab_open_Copy2" Content="打开文件地址" HorizontalAlignment="Left" Height="38" Margin="318,256,0,0" VerticalAlignment="Top" Width="298"/>
+
+    </Grid>
+</Window>
